@@ -4338,7 +4338,8 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 	font-size: 24px;
  }
 
- .ms-1 {
+ .ms-1,
+ .userName {
 	font-size: 14px;
 	font-weight: bold;
 	color: #2D6478;
@@ -4350,4 +4351,10 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 
  .chipGroup {
 	font-weight: bold !important;
+ }
+
+ .avatarStyle {
+	width: 10.5rem !important;
+	height: 10.5rem !important;
+	border-radius: 50% !important;
  }

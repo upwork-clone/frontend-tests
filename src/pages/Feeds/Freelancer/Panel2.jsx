@@ -47,8 +47,8 @@ const FeedCard = () => {
 			</div>
 			<Row className="align-items-center">
 				<Col xs="auto">
-					<i className="fas fa-check-circle text-primary"></i>
-					<span className="ms-1">Payment Verified</span>
+					<i className="fas fa-check-cms-1ircle text-primary"></i>
+					<span className="">Payment Verified</span>
 				</Col>
 				<Rating className="col-auto ps-0" name="payment-rating" size="small" defaultValue={5} precision={0.1} readOnly />
 				<Col as="span" xs="auto">

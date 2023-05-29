@@ -37,12 +37,12 @@ const Panel1 = () => {
 						<Col xs="auto">
 							<div className="user-active p-1">
 								<Link to="/profile" className="text-center text-primary my-3">
-									<Avatar variant="rounded" alt="User Name" src="" className="large"></Avatar>
+									<Avatar variant="rounded" alt="User Name" src="" className="large  avatarStyle"></Avatar>
 								</Link>
 							</div>
 						</Col>
-						<Link to="/profile" className="text-center text-primary my-3">
-							User name
+						<Link to="/profile" className="text-center userName my-3">
+							User Name
 						</Link>
 					</Row>
 					<Row className="align-items-center mb-3">
@@ -70,12 +70,12 @@ const Panel1 = () => {
 						<LinearProgressWithLabel value={50} />
 						<a className="text-primary" href="#">
 							<i className="fas fa-plus-square"></i>
-							<span className="ms-2">Add Testimonial +30%</span>
+							<span className="ms-1">Add Testimonial +30%</span>
 						</a>
 					</div>
-					<h6>Proposals</h6>
+					<h5>Proposals</h5>
 					<a className="text-primary" href="#">
-						50 available connects
+						<strong>50 Available Connects</strong>
 					</a>
 				</Card.Body>
 			</Card>
@@ -91,7 +91,7 @@ const Panel1 = () => {
 							</Col>
 						</Row>
 						<div className="mt-3">
-							<ChipGroup itemList={categories} size="small" onDelete={chipDelete} />
+							<ChipGroup itemList={categories} size="medium" onDelete={chipDelete} />
 						</div>
 					</Card.Body>
 				</Card>
