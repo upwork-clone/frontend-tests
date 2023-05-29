@@ -4331,3 +4331,23 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 		opacity: 0;
 	}
 }
+
+ /* ############### New Style Added ##################### */
+
+ .mb-1 {
+	font-size: 24px;
+ }
+
+ .ms-1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2D6478;
+ }
+
+ .advertText {
+	font-size: 16px;
+ }
+
+ .chipGroup {
+	font-weight: bold !important;
+ }

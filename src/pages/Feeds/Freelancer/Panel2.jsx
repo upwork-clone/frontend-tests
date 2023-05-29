@@ -34,13 +34,13 @@ const FeedCard = () => {
 				</Col>
 			</Row>
 			{/* Offer details */}
-			<Chip className="my-1 ms-0 me-2" icon={<LocalOfferIcon />} size="small" label="Fixed Price"></Chip>
-			<Chip className="my-1 ms-0 me-2" icon={<SettingsIcon />} size="small" label="Intermediate"></Chip>
-			<Chip className="my-1 ms-0 me-2" icon={<AttachMoneyIcon />} size="small" label="Est. Budget: $400"></Chip>
+			<Chip className="my-1 ms-0 me-2" icon={<LocalOfferIcon />} size="medium" label="Fixed Price"></Chip>
+			<Chip className="my-1 ms-0 me-2" icon={<SettingsIcon />} size="medium" label="Intermediate"></Chip>
+			<Chip className="my-1 ms-0 me-2" icon={<AttachMoneyIcon />} size="medium" label="Est. Budget: $400"></Chip>
 			{/* Description of the work */}
-			<p className="my-3">Hello I am looking for a web developer. Please see the attachment below for requirement. We can agree on to the proposal as soon as I determine your skills.</p>
+			<p className="my-3 advertText">Hello I am looking for a web developer. Please see the attachment below for requirement. We can agree on to the proposal as soon as I determine your skills.</p>
 			{/* Tags */}
-			<ChipGroup itemList={tags} color="primary" size="small" />
+			<ChipGroup itemList={tags} color="primary" size="medium" />
 			{/* Proposals submitted */}
 			<div className="my-2">
 				Proposals: <strong>Less than 5</strong>
