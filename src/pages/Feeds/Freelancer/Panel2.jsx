@@ -95,15 +95,20 @@ const Panel2 = () => {
 			<Card className="mt-3">
 				<Card.Body className="side-indicator-root">
 					<FeedCard />
-					<hr />
+				</Card.Body>
+			</Card>
+			<Card className="mt-3">
+				<Card.Body className="side-indicator-root">
 					<FeedCard />
-					<hr />
+				</Card.Body>
+			</Card>
+			<Card className="mt-3">
+				<Card.Body className="side-indicator-root">
 					<FeedCard />
-					<hr />
-					<FeedCard />
-					<hr />
-					<FeedCard />
-					<hr />
+				</Card.Body>
+			</Card>
+			<Card className="mt-3">
+				<Card.Body className="side-indicator-root">
 					<FeedCard />
 				</Card.Body>
 			</Card>
